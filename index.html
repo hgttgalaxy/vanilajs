@@ -8,15 +8,22 @@
     <title>Moments</title>
 </head>
 <body>
+    <form id="login-form" class="hidden">
+        <input type="text" maxlength="12" required placeholder="Write your name">
+        <input type="submit">
+    </form>
 <h2 id="clock">00:00:00</h2>
 <h1 id="greeting" class="hidden"></h1>
-<form id="login-form" class="hidden">
-    <input type="text" maxlength="12" required placeholder="Write your name">
-    <input type="submit">
-</form>
+<div id="quote">
+    <span></span>
+    <span></span>
+
+</div>
+
 
 
     <script src="js/clock.js"></script>
     <script src="js/greeting.js"></script>
+    <script src="js/quotes.js"></script>
 </body>
 </html>
